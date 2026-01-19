@@ -22,4 +22,4 @@ jobs:
           cache: maven
 
       - name: Compilar y ejecutar tests con Maven Wrapper
-        run: ./mvnw -B clean test
+        run: sh mvnw -B clean test
